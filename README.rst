@@ -1,6 +1,8 @@
 googlechart extension README
 ============================
 
+.. note:: See `CHANGELOG.rst`__
+
 This is a sphinx extension which render charts and graphs by using
 `Google Chart <http://code.google.com/intl/ja/apis/chart/>`_ .
 
@@ -40,8 +42,8 @@ Install
 Configure Sphinx
 ----------------
 
-To enable this extension, add ``sphinxcontrib.googlechart`` module to extensions 
-option at :file:`conf.py`. 
+To enable this extension, add ``sphinxcontrib.googlechart`` module to extensions
+option at :file:`conf.py`.
 
 .. code-block:: python
 

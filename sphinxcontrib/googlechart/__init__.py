@@ -23,7 +23,11 @@ from docutils.parsers.rst import directives
 
 from sphinx.errors import SphinxError
 from sphinx.util.osutil import ensuredir, ENOENT, EPIPE
-from sphinx.util.compat import Directive
+try:
+    from sphinx.util.compat import Directive
+except ImportError:
+    from docutils.parsers.rst import Directive
+
 
 from sphinxcontrib.googlechart import core
 
