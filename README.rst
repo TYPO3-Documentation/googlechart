@@ -1,7 +1,7 @@
 googlechart extension README
 ============================
 
-.. note:: See `CHANGELOG.rst`__
+**See CHANGELOG.rst**
 
 This is a sphinx extension which render charts and graphs by using
 `Google Chart <http://code.google.com/intl/ja/apis/chart/>`_ .
